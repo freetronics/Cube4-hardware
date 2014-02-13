@@ -1,4 +1,4 @@
-update=26/07/2012 4:33:54 PM
+update=Thu 13 Feb 2014 14:05:48 EST
 version=1
 last_client=pcbnew
 [general]
@@ -10,7 +10,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=C:/Freetronics/projects/KiCad/libraries
+LibDir=../library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -40,7 +40,7 @@ RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=freetronics_kicad_sch_lib_v1
+LibName1=../library/freetronics_kicad_sch_lib
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -73,21 +73,24 @@ LibName30=contrib
 LibName31=valves
 [pcbnew]
 version=1
-PadDrlX=394
-PadDimH=630
-PadDimV=630
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=39
-EdgeLar=39
-TxtLar=120
-MSegLar=39
 LastNetListRead=
+UseCmpFile=1
+PadDrill="    1.000760"
+PadDrillOvalY="    1.000760"
+PadSizeH="    1.600200"
+PadSizeV="    1.600200"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.099060"
+BoardOutlineThickness="    0.099060"
+ModuleOutlineThickness="    0.099060"
 [pcbnew/libraries]
 LibDir=
-LibName1=C:/Freetronics/projects/KiCad/libraries/freetronics_kicad_pcb_lib_v1
+LibName1=../library/freetronics_kicad_pcb_lib
+

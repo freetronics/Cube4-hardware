@@ -1,41 +1,23 @@
-update=8/24/2012 9:04:06 PM
+update=Thu 13 Feb 2014 13:59:36 EST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=Z:/Documents/Freetronics/projects/KiCad/libraries/
-NetFmt=1
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
+NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
 [eeschema/libraries]
-LibName1=freetronics_kicad_sch_lib_v1
+LibName1=../library/freetronics_kicad_sch_lib
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -68,27 +50,24 @@ LibName30=contrib
 LibName31=valves
 [pcbnew]
 version=1
-PadDrlX=394
-PadDimH=669
-PadDimV=669
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
 LastNetListRead=cube4.net
+UseCmpFile=1
+PadDrill="    1.000760"
+PadDrillOvalY="    1.000760"
+PadSizeH="    1.699260"
+PadSizeV="    1.699260"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
-LibName1=Z:/Documents/Freetronics/projects/KiCad/libraries/freetronics_kicad_pcb_lib_v1
-LibName2=Z:/Documents/Freetronics/projects/KiCad/other libraries/oshw-logo-kicad-copper-10mm
 LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName1=../library/freetronics_kicad_pcb_lib
+LibName2=Z:/Documents/Freetronics/projects/KiCad/other libraries/oshw-logo-kicad-copper-10mm
