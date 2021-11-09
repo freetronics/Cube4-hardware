@@ -9,7 +9,7 @@ interface for direct control and learning, an open source driver library
 and an on-board Arduino compatible MCU running the whole show!
 
 The Cube was designed using the open source KiCad schematic and pcb
-design package: http://www.kicad-pcb.org
+design package: http://www.kicad.org
 
 The schematic pages have been carefully laid out to make it easy to follow and
 learn about a larger microcontroller based project design in operation.
@@ -37,7 +37,7 @@ schematic in PDF format and image(s) of the main pcb.
 INSTALLATION
 ------------
 The design is saved as a KiCad project. KiCad PCB design software is
-available from www.kicad-pcb.org free and open-source. To use
+available from www.kicad.org free and open-source. To use
 this project download it and place the directories containing these files
 into the a folder on your computer. Then open KiCad and navigate to the
 *.pro (project) file for each section.
